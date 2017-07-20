@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+gem "rspec"
+gem "guard"
+gem "guard-rspec"
+gem "pg"
+gem "rgl"
+gem "byebug"
+gem "process_shared"
+gem "sequel"
+gem "ai4r"
+gem "statistics2"
