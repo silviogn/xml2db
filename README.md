@@ -1,3 +1,4 @@
+This work is based on work by Michael DiScala and Daniel Abadi
 # Automatic Generation of Normalized Relational Schemas from Nested Key-Value Data
 
 This archive contains an basic implementation of the algorithm described
