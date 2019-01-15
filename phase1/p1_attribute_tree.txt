@@ -1,0 +1,28 @@
+PARENT: ROOT
+id_song
+
+PARENT: id_song
+lyrics
+musical_features_acousticness
+musical_features_danceability
+musical_features_duration_ms
+musical_features_energy
+musical_features_instrumentalness
+musical_features_liveness
+musical_features_loudness
+musical_features_speechiness
+musical_features_tempo
+musical_features_valence
+song
+
+PARENT: lyrics
+artist_artist_id, artist_name
+
+PARENT: artist_artist_id, artist_name
+artist_genre
+artist_popularity
+artist_region
+
+PARENT: 
+ROOT
+

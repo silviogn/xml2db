@@ -1,0 +1,307 @@
+c1,c2,c1 cardinality,c2 cardinality,pair cardinality,c1 mode,c2 mode,null count c1,null count c2,c1 is sparser,strength
+artist_artist_id,artist_genre,710,19,710,7i7EQonx0GrqoKiNQL4gFO,rock,0,0,false,1.0
+artist_genre,artist_artist_id,19,710,710,rock,7i7EQonx0GrqoKiNQL4gFO,0,0,false,0.02538787023977433
+artist_artist_id,artist_name,710,710,710,7i7EQonx0GrqoKiNQL4gFO,renato zero,0,0,false,1.0
+artist_name,artist_artist_id,710,710,710,renato zero,7i7EQonx0GrqoKiNQL4gFO,0,0,false,1.0
+artist_artist_id,musical_features_instrumentalness,710,3491,7730,7i7EQonx0GrqoKiNQL4gFO,0,0,3604,false,0.045547246770904146
+musical_features_instrumentalness,artist_artist_id,3491,710,7730,0,7i7EQonx0GrqoKiNQL4gFO,3604,0,true,0.44551994767822106
+musical_features_acousticness,musical_features_energy,3237,1031,11008,,,3604,3604,false,0.2939947306259653
+musical_features_energy,musical_features_acousticness,1031,3237,11008,,,3604,3604,false,0.0935768147542473
+musical_features_acousticness,musical_features_instrumentalness,3237,3491,8912,,0,3604,3604,false,0.213771127736215
+musical_features_instrumentalness,musical_features_acousticness,3491,3237,8912,0,,3604,3604,false,0.39165076871282684
+musical_features_acousticness,musical_features_liveness,3237,1414,10986,,,3604,3604,false,0.29458352298588986
+musical_features_liveness,musical_features_acousticness,1414,3237,10986,,,3604,3604,false,0.12862994993172508
+musical_features_acousticness,musical_features_loudness,3237,7056,11071,,,3604,3604,false,0.2923215898825655
+musical_features_loudness,musical_features_acousticness,7056,3237,11071,,,3604,3604,false,0.6373080397470642
+musical_features_acousticness,musical_features_speechiness,3237,1146,11008,,,3604,3604,false,0.2939947306259653
+musical_features_speechiness,musical_features_acousticness,1146,3237,11008,,,3604,3604,false,0.10402471154719724
+musical_features_acousticness,musical_features_tempo,3237,9865,11074,,,3604,3604,false,0.2922423914025106
+musical_features_tempo,musical_features_acousticness,9865,3237,11074,,,3604,3604,false,0.8908154971552424
+musical_features_acousticness,musical_features_valence,3237,1277,11033,,,3604,3604,false,0.29332849891225526
+musical_features_valence,musical_features_acousticness,1277,3237,11033,,,3604,3604,false,0.11566352429296592
+musical_features_acousticness,song,3237,14004,14624,,come prima,3604,0,true,0.22102886851826514
+song,musical_features_acousticness,14004,3237,14624,come prima,,0,3604,false,0.944018058690745
+musical_features_danceability,musical_features_duration_ms,847,8615,11067,,,3604,3604,false,0.07645038857762516
+musical_features_duration_ms,musical_features_danceability,8615,847,11067,,,3604,3604,false,0.7784203867702874
+musical_features_danceability,musical_features_energy,847,1031,10927,,,3604,3604,false,0.07742998352553541
+musical_features_energy,musical_features_danceability,1031,847,10927,,,3604,3604,false,0.09427054731832327
+artist_artist_id,musical_features_liveness,710,1414,10609,7i7EQonx0GrqoKiNQL4gFO,,0,3604,false,0.05036454336147352
+musical_features_liveness,artist_artist_id,1414,710,10609,,7i7EQonx0GrqoKiNQL4gFO,3604,0,true,0.1242023049814268
+musical_features_danceability,musical_features_instrumentalness,847,3491,7882,,0,3604,3604,false,0.022916666666666665
+musical_features_instrumentalness,musical_features_danceability,3491,847,7882,0,,3604,3604,false,0.4428372034005837
+musical_features_danceability,musical_features_liveness,847,1414,10799,,,3604,3604,false,0.0783478421929987
+musical_features_liveness,musical_features_danceability,1414,847,10799,,,3604,3604,false,0.13085756621596592
+musical_features_danceability,musical_features_loudness,847,7056,11060,,,3604,3604,false,0.07649877927479881
+musical_features_loudness,musical_features_danceability,7056,847,11060,,,3604,3604,false,0.6379419477348766
+musical_features_danceability,musical_features_speechiness,847,1146,10861,,,3604,3604,false,0.07790055248618785
+musical_features_speechiness,musical_features_danceability,1146,847,10861,,,3604,3604,false,0.10543278084714548
+musical_features_danceability,musical_features_tempo,847,9865,11053,,,3604,3604,false,0.07654723127035831
+musical_features_tempo,musical_features_danceability,9865,847,11053,,,3604,3604,false,0.8925081433224755
+musical_features_danceability,musical_features_valence,847,1277,10903,,,3604,3604,false,0.07760044028618603
+musical_features_valence,musical_features_danceability,1277,847,10903,,,3604,3604,false,0.11704274445055952
+musical_features_danceability,song,847,14004,14624,,come prima,3604,0,true,0.057531810097140514
+song,musical_features_danceability,14004,847,14624,come prima,,0,3604,false,0.944018058690745
+musical_features_duration_ms,musical_features_energy,8615,1031,11069,,,3604,3604,false,0.7782797253342971
+musical_features_energy,musical_features_duration_ms,1031,8615,11069,,,3604,3604,false,0.09306107697867727
+musical_features_duration_ms,musical_features_instrumentalness,8615,3491,10644,,0,3604,3604,false,0.7188972014408423
+musical_features_instrumentalness,musical_features_duration_ms,3491,8615,10644,0,,3604,3604,false,0.3279150615427981
+musical_features_duration_ms,musical_features_liveness,8615,1414,11064,,,3604,3604,false,0.7786314742836482
+musical_features_liveness,musical_features_duration_ms,1414,8615,11064,,,3604,3604,false,0.12772304076651902
+artist_artist_id,musical_features_loudness,710,7056,11227,7i7EQonx0GrqoKiNQL4gFO,,0,3604,false,0.04754573446839341
+musical_features_loudness,artist_artist_id,7056,710,11227,,7i7EQonx0GrqoKiNQL4gFO,3604,0,true,0.624098774333093
+musical_features_duration_ms,musical_features_loudness,8615,7056,11074,,,3604,3604,false,0.7779282940485867
+musical_features_loudness,musical_features_duration_ms,7056,8615,11074,,,3604,3604,false,0.6371353743339655
+musical_features_duration_ms,musical_features_speechiness,8615,1146,11064,,,3604,3604,false,0.7786314742836482
+musical_features_speechiness,musical_features_duration_ms,1146,8615,11064,,,3604,3604,false,0.10349814697640784
+musical_features_duration_ms,musical_features_tempo,8615,9865,11069,,,3604,3604,false,0.7782797253342971
+musical_features_tempo,musical_features_duration_ms,9865,8615,11069,,,3604,3604,false,0.8912179255511384
+musical_features_duration_ms,musical_features_valence,8615,1277,11066,,,3604,3604,false,0.7784907365567103
+musical_features_valence,musical_features_duration_ms,1277,8615,11066,,,3604,3604,false,0.11531857207410755
+musical_features_duration_ms,song,8615,14004,14623,,come prima,3604,0,true,0.588971745228159
+song,musical_features_duration_ms,14004,8615,14623,come prima,,0,3604,false,0.9441033050388297
+musical_features_energy,musical_features_instrumentalness,1031,3491,8043,,0,3604,3604,false,0.027596727222299264
+musical_features_instrumentalness,musical_features_energy,3491,1031,8043,0,,3604,3604,false,0.43397164884357126
+musical_features_energy,musical_features_liveness,1031,1414,10887,,,3604,3604,false,0.09461693918794782
+musical_features_liveness,musical_features_energy,1414,1031,10887,,,3604,3604,false,0.1297997427889032
+musical_features_energy,musical_features_loudness,1031,7056,11063,,,3604,3604,false,0.09311155306454529
+musical_features_loudness,musical_features_energy,7056,1031,11063,,,3604,3604,false,0.6377689387090942
+musical_features_energy,musical_features_speechiness,1031,1146,10905,,,3604,3604,false,0.09446074834922964
+musical_features_speechiness,musical_features_energy,1146,1031,10905,,,3604,3604,false,0.10500733675715333
+musical_features_energy,musical_features_tempo,1031,9865,11070,,,3604,3604,false,0.09305266961785166
+musical_features_tempo,musical_features_energy,9865,1031,11070,,,3604,3604,false,0.8911374107868822
+artist_artist_id,musical_features_speechiness,710,1146,10647,7i7EQonx0GrqoKiNQL4gFO,,0,3604,false,0.05018160963486905
+musical_features_speechiness,artist_artist_id,1146,710,10647,,7i7EQonx0GrqoKiNQL4gFO,3604,0,true,0.09840576959574872
+musical_features_energy,musical_features_valence,1031,1277,10969,,,3604,3604,false,0.0939095550692925
+musical_features_valence,musical_features_energy,1277,1031,10969,,,3604,3604,false,0.1163384390955507
+musical_features_energy,song,1031,14004,14624,,come prima,3604,0,true,0.07011903133123547
+song,musical_features_energy,14004,1031,14624,come prima,,0,3604,false,0.944018058690745
+musical_features_instrumentalness,musical_features_liveness,3491,1414,8239,0,,3604,3604,false,0.42364651614469534
+musical_features_liveness,musical_features_instrumentalness,1414,3491,8239,,0,3604,3604,false,0.05168820341809087
+musical_features_instrumentalness,musical_features_loudness,3491,7056,10325,0,,3604,3604,false,0.33804726850058114
+musical_features_loudness,musical_features_instrumentalness,7056,3491,10325,,0,3604,3604,false,0.5472299168975069
+musical_features_instrumentalness,musical_features_speechiness,3491,1146,8188,0,,3604,3604,false,0.42628557469158423
+musical_features_speechiness,musical_features_instrumentalness,1146,3491,8188,,0,3604,3604,false,0.022894408214236158
+musical_features_instrumentalness,musical_features_tempo,3491,9865,10894,0,,3604,3604,false,0.320389240796842
+musical_features_tempo,musical_features_instrumentalness,9865,3491,10894,,0,3604,3604,false,0.8574397339983375
+musical_features_instrumentalness,musical_features_valence,3491,1277,8111,0,,3604,3604,false,0.43033292231812575
+musical_features_valence,musical_features_instrumentalness,1277,3491,8111,,0,3604,3604,false,0.0521497919556172
+musical_features_instrumentalness,song,3491,14004,14560,0,come prima,3604,0,true,0.23955757076119813
+song,musical_features_instrumentalness,14004,3491,14560,come prima,0,0,3604,false,0.9483655274888558
+musical_features_liveness,musical_features_loudness,1414,7056,11058,,,3604,3604,false,0.1277923487383558
+musical_features_loudness,musical_features_liveness,7056,1414,11058,,,3604,3604,false,0.6380573392421091
+musical_features_liveness,musical_features_speechiness,1414,1146,10709,,,3604,3604,false,0.13195741501680985
+musical_features_speechiness,musical_features_liveness,1146,1414,10709,,,3604,3604,false,0.10692939858050056
+artist_artist_id,musical_features_tempo,710,9865,11230,7i7EQonx0GrqoKiNQL4gFO,,0,3604,false,0.047532820280669984
+musical_features_tempo,artist_artist_id,9865,710,11230,,7i7EQonx0GrqoKiNQL4gFO,3604,0,true,0.8770159473826471
+musical_features_liveness,musical_features_tempo,1414,9865,11055,,,3604,3604,false,0.1278270309390266
+musical_features_tempo,musical_features_liveness,9865,1414,11055,,,3604,3604,false,0.8923466618418672
+musical_features_liveness,musical_features_valence,1414,1277,10860,,,3604,3604,false,0.13012247904963625
+musical_features_valence,musical_features_liveness,1277,1414,10860,,,3604,3604,false,0.11750621604199282
+musical_features_liveness,song,1414,14004,14623,,come prima,3604,0,true,0.09632619552575768
+song,musical_features_liveness,14004,1414,14623,come prima,,0,3604,false,0.9441033050388297
+musical_features_loudness,musical_features_speechiness,7056,1146,11071,,,3604,3604,false,0.6373080397470642
+musical_features_speechiness,musical_features_loudness,1146,7056,11071,,,3604,3604,false,0.1034327009936766
+musical_features_loudness,musical_features_tempo,7056,9865,11074,,,3604,3604,false,0.6371353743339655
+musical_features_tempo,musical_features_loudness,9865,7056,11074,,,3604,3604,false,0.8908154971552424
+musical_features_loudness,musical_features_valence,7056,1277,11069,,,3604,3604,false,0.6374232020238525
+musical_features_valence,musical_features_loudness,1277,7056,11069,,,3604,3604,false,0.11528731478135164
+musical_features_loudness,song,7056,14004,14624,,come prima,3604,0,true,0.48228211793679027
+song,musical_features_loudness,14004,7056,14624,come prima,,0,3604,false,0.944018058690745
+musical_features_speechiness,musical_features_tempo,1146,9865,11053,,,3604,3604,false,0.10360115816141875
+musical_features_tempo,musical_features_speechiness,9865,1146,11053,,,3604,3604,false,0.8925081433224755
+musical_features_speechiness,musical_features_valence,1146,1277,10919,,,3604,3604,false,0.10487268730536728
+musical_features_valence,musical_features_speechiness,1277,1146,10919,,,3604,3604,false,0.11687122183550101
+musical_features_speechiness,song,1146,14004,14622,,come prima,3604,0,true,0.07799671592775041
+song,musical_features_speechiness,14004,1146,14622,come prima,,0,3604,false,0.9441885667840694
+artist_artist_id,musical_features_valence,710,1277,10890,7i7EQonx0GrqoKiNQL4gFO,,0,3604,false,0.04904250350303596
+musical_features_valence,artist_artist_id,1277,710,10890,,7i7EQonx0GrqoKiNQL4gFO,3604,0,true,0.10726225854383357
+musical_features_tempo,musical_features_valence,9865,1277,11054,,,3604,3604,false,0.8924273952773003
+musical_features_valence,musical_features_tempo,1277,9865,11054,,,3604,3604,false,0.11544377092192165
+musical_features_tempo,song,9865,14004,14624,,come prima,3604,0,true,0.6744424681899028
+song,musical_features_tempo,14004,9865,14624,come prima,,0,3604,false,0.944018058690745
+musical_features_valence,song,1277,14004,14624,,come prima,3604,0,true,0.08694759885073197
+song,musical_features_valence,14004,1277,14624,come prima,,0,3604,false,0.944018058690745
+artist_artist_id,song,710,14004,14679,7i7EQonx0GrqoKiNQL4gFO,come prima,0,0,false,0.04797928167382267
+song,artist_artist_id,14004,710,14679,come prima,7i7EQonx0GrqoKiNQL4gFO,0,0,false,0.9536018696728072
+artist_genre,artist_name,19,710,710,rock,renato zero,0,0,false,0.02538787023977433
+artist_name,artist_genre,710,19,710,renato zero,rock,0,0,false,1.0
+artist_genre,artist_popularity,19,78,335,rock,42,0,0,false,0.03363914373088685
+artist_popularity,artist_genre,78,19,335,42,rock,0,0,false,0.05514705882352941
+artist_genre,artist_region,19,20,134,rock,lombardia,0,0,false,0.049586776859504134
+artist_region,artist_genre,20,19,134,lombardia,rock,0,0,false,0.02564102564102564
+artist_artist_id,artist_popularity,710,78,710,7i7EQonx0GrqoKiNQL4gFO,42,0,0,false,1.0
+artist_popularity,artist_artist_id,78,710,710,42,7i7EQonx0GrqoKiNQL4gFO,0,0,false,0.10860366713681241
+artist_genre,id_song,19,14679,14679,rock,5JoDmSstsk28RMS7Sk4HoT,0,0,false,0.0012263251124131353
+id_song,artist_genre,14679,19,14679,5JoDmSstsk28RMS7Sk4HoT,rock,0,0,false,1.0
+artist_genre,lyrics,19,14419,14460,rock,instrumental,0,0,false,0.0005536715343622396
+lyrics,artist_genre,14419,19,14460,instrumental,rock,0,0,false,0.9957675234850831
+artist_genre,musical_features_acousticness,19,3237,7058,rock,,0,3604,false,0.0007098239636570131
+musical_features_acousticness,artist_genre,3237,19,7058,,rock,3604,0,true,0.1916649037444468
+artist_genre,musical_features_danceability,19,847,3793,rock,,0,3604,false,0.0013231013495633766
+musical_features_danceability,artist_genre,847,19,3793,,rock,3604,0,true,0.041327692808330624
+artist_genre,musical_features_duration_ms,19,8615,10400,rock,,0,3604,false,0.00048141729250914694
+musical_features_duration_ms,artist_genre,8615,19,10400,,rock,3604,0,true,0.7445621064682313
+artist_genre,musical_features_energy,19,1031,4240,rock,,0,3604,false,0.001183151916706105
+musical_features_energy,artist_genre,1031,19,4240,,rock,3604,0,true,0.06985507246376811
+artist_genre,musical_features_instrumentalness,19,3491,5768,rock,0,0,3604,false,0.0008689607229753215
+musical_features_instrumentalness,artist_genre,3491,19,5768,0,rock,3604,0,true,0.3857566765578635
+artist_genre,musical_features_liveness,19,1414,4505,rock,,0,3604,false,0.00111333778668448
+musical_features_liveness,artist_genre,1414,19,4505,,rock,3604,0,true,0.10973502304147466
+artist_genre,musical_features_loudness,19,7056,9758,rock,,0,3604,false,0.000513136288998358
+musical_features_loudness,artist_genre,7056,19,9758,,rock,3604,0,true,0.5961136023916292
+artist_genre,musical_features_speechiness,19,1146,4084,rock,,0,3604,false,0.0012285012285012285
+musical_features_speechiness,artist_genre,1146,19,4084,,rock,3604,0,true,0.07726130653266332
+artist_artist_id,artist_region,710,20,710,7i7EQonx0GrqoKiNQL4gFO,lombardia,0,0,false,1.0
+artist_region,artist_artist_id,20,710,710,lombardia,7i7EQonx0GrqoKiNQL4gFO,0,0,false,0.02679830747531735
+artist_genre,musical_features_tempo,19,9865,10729,rock,,0,3604,false,0.0004666355576294914
+musical_features_tempo,artist_genre,9865,19,10729,,rock,3604,0,true,0.8800666296501943
+artist_genre,musical_features_valence,19,1277,4839,rock,,0,3604,false,0.0010362694300518134
+musical_features_valence,artist_genre,1277,19,4839,,rock,3604,0,true,0.05139813581890812
+artist_genre,song,19,14004,14422,rock,come prima,0,0,false,0.0010403662089055348
+song,artist_genre,14004,19,14422,come prima,rock,0,0,false,0.9566704675028507
+artist_name,artist_popularity,710,78,710,renato zero,42,0,0,false,1.0
+artist_popularity,artist_name,78,710,710,42,renato zero,0,0,false,0.10860366713681241
+artist_name,artist_region,710,20,710,renato zero,lombardia,0,0,false,1.0
+artist_region,artist_name,20,710,710,lombardia,renato zero,0,0,false,0.02679830747531735
+artist_name,id_song,710,14679,14679,renato zero,5JoDmSstsk28RMS7Sk4HoT,0,0,false,0.048303583594495166
+id_song,artist_name,14679,710,14679,5JoDmSstsk28RMS7Sk4HoT,renato zero,0,0,false,1.0
+artist_name,lyrics,710,14419,14523,renato zero,instrumental,0,0,false,0.046590281612368854
+lyrics,artist_name,14419,710,14523,instrumental,renato zero,0,0,false,0.9927737632017788
+artist_name,musical_features_acousticness,710,3237,11041,renato zero,,0,3604,false,0.048360353721444364
+musical_features_acousticness,artist_name,3237,710,11041,,renato zero,3604,0,true,0.2849551035367418
+artist_name,musical_features_danceability,710,847,10723,renato zero,,0,3604,false,0.049819700132852536
+musical_features_danceability,artist_name,847,710,10723,,renato zero,3604,0,true,0.06865333836288193
+artist_name,musical_features_duration_ms,710,8615,11219,renato zero,,0,3604,false,0.04758020663404024
+musical_features_duration_ms,artist_name,8615,710,11219,,renato zero,3604,0,true,0.7651515151515151
+artist_artist_id,id_song,710,14679,14679,7i7EQonx0GrqoKiNQL4gFO,5JoDmSstsk28RMS7Sk4HoT,0,0,false,0.048303583594495166
+id_song,artist_artist_id,14679,710,14679,5JoDmSstsk28RMS7Sk4HoT,7i7EQonx0GrqoKiNQL4gFO,0,0,false,1.0
+artist_name,musical_features_energy,710,1031,10698,renato zero,,0,3604,false,0.04993817178731095
+musical_features_energy,artist_name,1031,710,10698,,renato zero,3604,0,true,0.08646758646758647
+artist_name,musical_features_instrumentalness,710,3491,7730,renato zero,0,0,3604,false,0.045547246770904146
+musical_features_instrumentalness,artist_name,3491,710,7730,0,renato zero,3604,0,true,0.44551994767822106
+artist_name,musical_features_liveness,710,1414,10609,renato zero,,0,3604,false,0.05036454336147352
+musical_features_liveness,artist_name,1414,710,10609,,renato zero,3604,0,true,0.1242023049814268
+artist_name,musical_features_loudness,710,7056,11227,renato zero,,0,3604,false,0.04754573446839341
+musical_features_loudness,artist_name,7056,710,11227,,renato zero,3604,0,true,0.624098774333093
+artist_name,musical_features_speechiness,710,1146,10647,renato zero,,0,3604,false,0.05018160963486905
+musical_features_speechiness,artist_name,1146,710,10647,,renato zero,3604,0,true,0.09840576959574872
+artist_name,musical_features_tempo,710,9865,11230,renato zero,,0,3604,false,0.047532820280669984
+musical_features_tempo,artist_name,9865,710,11230,,renato zero,3604,0,true,0.8770159473826471
+artist_name,musical_features_valence,710,1277,10890,renato zero,,0,3604,false,0.04904250350303596
+musical_features_valence,artist_name,1277,710,10890,,renato zero,3604,0,true,0.10726225854383357
+artist_name,song,710,14004,14679,renato zero,come prima,0,0,false,0.04797928167382267
+song,artist_name,14004,710,14679,come prima,renato zero,0,0,false,0.9536018696728072
+artist_popularity,artist_region,78,20,442,42,lombardia,0,0,false,0.04960835509138381
+artist_region,artist_popularity,20,78,442,lombardia,42,0,0,false,0.02088167053364269
+artist_popularity,id_song,78,14679,14679,42,5JoDmSstsk28RMS7Sk4HoT,0,0,false,0.005245946314211746
+id_song,artist_popularity,14679,78,14679,5JoDmSstsk28RMS7Sk4HoT,42,0,0,false,1.0
+artist_artist_id,lyrics,710,14419,14523,7i7EQonx0GrqoKiNQL4gFO,instrumental,0,0,false,0.046590281612368854
+lyrics,artist_artist_id,14419,710,14523,instrumental,7i7EQonx0GrqoKiNQL4gFO,0,0,false,0.9927737632017788
+artist_popularity,lyrics,78,14419,14507,42,instrumental,0,0,false,0.0037285092867499828
+lyrics,artist_popularity,14419,78,14507,instrumental,42,0,0,false,0.99368133840741
+artist_popularity,musical_features_acousticness,78,3237,10409,42,,0,3604,false,0.0009670244657189827
+musical_features_acousticness,artist_popularity,3237,78,10409,,42,3604,0,true,0.28380267625324546
+artist_popularity,musical_features_danceability,78,847,9101,42,,0,3604,false,0.0011070519207350825
+musical_features_danceability,artist_popularity,847,78,9101,,42,3604,0,true,0.06247160381644707
+artist_popularity,musical_features_duration_ms,78,8615,11046,42,,0,3604,false,0.0009109127345600292
+musical_features_duration_ms,artist_popularity,8615,78,11046,,42,3604,0,true,0.7711138310893513
+artist_popularity,musical_features_energy,78,1031,9431,42,,0,3604,false,0.0010680337498664959
+musical_features_energy,artist_popularity,1031,78,9431,,42,3604,0,true,0.07742998352553541
+artist_popularity,musical_features_instrumentalness,78,3491,7203,42,0,0,3604,false,0.0008413967185527977
+musical_features_instrumentalness,artist_popularity,3491,78,7203,0,42,3604,0,true,0.46420323325635104
+artist_popularity,musical_features_liveness,78,1414,8894,42,,0,3604,false,0.0011330160888284614
+musical_features_liveness,artist_popularity,1414,78,8894,,42,3604,0,true,0.1327536231884058
+artist_popularity,musical_features_loudness,78,7056,11001,42,,0,3604,false,0.000914662032379036
+musical_features_loudness,artist_popularity,7056,78,11001,,42,3604,0,true,0.6271971271971272
+artist_popularity,musical_features_speechiness,78,1146,9091,42,,0,3604,false,0.001108278842956888
+musical_features_speechiness,artist_popularity,1146,78,9091,,42,3604,0,true,0.09582337544099237
+artist_popularity,musical_features_tempo,78,9865,11086,42,,0,3604,false,0.0009076057360682519
+musical_features_tempo,artist_popularity,9865,78,11086,,42,3604,0,true,0.8854489164086687
+artist_artist_id,musical_features_acousticness,710,3237,11041,7i7EQonx0GrqoKiNQL4gFO,,0,3604,false,0.048360353721444364
+musical_features_acousticness,artist_artist_id,3237,710,11041,,7i7EQonx0GrqoKiNQL4gFO,3604,0,true,0.2849551035367418
+artist_popularity,musical_features_valence,78,1277,9763,42,,0,3604,false,0.0010314595152140279
+musical_features_valence,artist_popularity,1277,78,9763,,42,3604,0,true,0.09972416719711437
+artist_popularity,song,78,14004,14657,42,come prima,0,0,false,0.004982254982254982
+song,artist_popularity,14004,78,14657,come prima,42,0,0,false,0.9535990904569033
+artist_region,id_song,20,14679,14679,lombardia,5JoDmSstsk28RMS7Sk4HoT,0,0,false,0.001294454285324976
+id_song,artist_region,14679,20,14679,5JoDmSstsk28RMS7Sk4HoT,lombardia,0,0,false,1.0
+artist_region,lyrics,20,14419,14479,lombardia,instrumental,0,0,false,0.00048389326697082815
+lyrics,artist_region,14419,20,14479,instrumental,lombardia,0,0,false,0.9947469795132201
+artist_region,musical_features_acousticness,20,3237,8721,lombardia,,0,3604,false,0.0005743165632896852
+musical_features_acousticness,artist_region,3237,20,8721,,lombardia,3604,0,true,0.24012747679091034
+artist_region,musical_features_danceability,20,847,5700,lombardia,,0,3604,false,0.0008795074758135445
+musical_features_danceability,artist_region,847,20,5700,,lombardia,3604,0,true,0.0371031746031746
+artist_region,musical_features_duration_ms,20,8615,10755,lombardia,,0,3604,false,0.0004655493482309125
+musical_features_duration_ms,artist_region,8615,20,10755,,lombardia,3604,0,true,0.749473191290096
+artist_region,musical_features_energy,20,1031,6244,lombardia,,0,3604,false,0.0008026970621287526
+musical_features_energy,artist_region,1031,20,6244,,lombardia,3604,0,true,0.048375319459656806
+artist_region,musical_features_instrumentalness,20,3491,6533,lombardia,0,0,3604,false,0.0
+musical_features_instrumentalness,artist_region,3491,20,6533,0,lombardia,3604,0,true,0.4343622164373373
+artist_region,musical_features_liveness,20,1414,5989,lombardia,,0,3604,false,0.0008369601606963508
+musical_features_liveness,artist_region,1414,20,5989,,lombardia,3604,0,true,0.10974897840046702
+artist_artist_id,musical_features_danceability,710,847,10723,7i7EQonx0GrqoKiNQL4gFO,,0,3604,false,0.049819700132852536
+musical_features_danceability,artist_artist_id,847,710,10723,,7i7EQonx0GrqoKiNQL4gFO,3604,0,true,0.06865333836288193
+artist_region,musical_features_loudness,20,7056,10478,lombardia,,0,3604,false,0.00047787441460384213
+musical_features_loudness,artist_region,7056,20,10478,,lombardia,3604,0,true,0.5925705441123943
+artist_region,musical_features_speechiness,20,1146,5926,lombardia,,0,3604,false,0.000845880561664693
+musical_features_speechiness,artist_region,1146,20,5926,,lombardia,3604,0,true,0.06421299921691465
+artist_region,musical_features_tempo,20,9865,10887,lombardia,,0,3604,false,0.000459896983075791
+musical_features_tempo,artist_region,9865,20,10887,,lombardia,3604,0,true,0.8815896188158961
+artist_region,musical_features_valence,20,1277,6784,lombardia,,0,3604,false,0.0007386615452799527
+musical_features_valence,artist_region,1277,20,6784,,lombardia,3604,0,true,0.06454900628503482
+artist_region,song,20,14004,14563,lombardia,come prima,0,0,false,0.0009617366215566394
+song,artist_region,14004,20,14563,come prima,lombardia,0,0,false,0.9513786205096982
+id_song,lyrics,14679,14419,14679,5JoDmSstsk28RMS7Sk4HoT,instrumental,0,0,false,1.0
+lyrics,id_song,14419,14679,14679,instrumental,5JoDmSstsk28RMS7Sk4HoT,0,0,false,0.9822864150429214
+id_song,musical_features_acousticness,14679,3237,14679,5JoDmSstsk28RMS7Sk4HoT,,0,3604,false,1.0
+musical_features_acousticness,id_song,3237,14679,14679,,5JoDmSstsk28RMS7Sk4HoT,3604,0,true,0.220466003542717
+id_song,musical_features_danceability,14679,847,14679,5JoDmSstsk28RMS7Sk4HoT,,0,3604,false,1.0
+musical_features_danceability,id_song,847,14679,14679,,5JoDmSstsk28RMS7Sk4HoT,3604,0,true,0.05763728028341736
+id_song,musical_features_duration_ms,14679,8615,14679,5JoDmSstsk28RMS7Sk4HoT,,0,3604,false,1.0
+musical_features_duration_ms,id_song,8615,14679,14679,,5JoDmSstsk28RMS7Sk4HoT,3604,0,true,0.5868646954625971
+id_song,musical_features_energy,14679,1031,14679,5JoDmSstsk28RMS7Sk4HoT,,0,3604,false,1.0
+musical_features_energy,id_song,1031,14679,14679,,5JoDmSstsk28RMS7Sk4HoT,3604,0,true,0.07017304809919607
+artist_artist_id,musical_features_duration_ms,710,8615,11219,7i7EQonx0GrqoKiNQL4gFO,,0,3604,false,0.04758020663404024
+musical_features_duration_ms,artist_artist_id,8615,710,11219,,7i7EQonx0GrqoKiNQL4gFO,3604,0,true,0.7651515151515151
+id_song,musical_features_instrumentalness,14679,3491,14679,5JoDmSstsk28RMS7Sk4HoT,0,0,3604,false,1.0
+musical_features_instrumentalness,id_song,3491,14679,14679,0,5JoDmSstsk28RMS7Sk4HoT,3604,0,true,0.23777081346232457
+id_song,musical_features_liveness,14679,1414,14679,5JoDmSstsk28RMS7Sk4HoT,,0,3604,false,1.0
+musical_features_liveness,id_song,1414,14679,14679,,5JoDmSstsk28RMS7Sk4HoT,3604,0,true,0.09626652132443111
+id_song,musical_features_loudness,14679,7056,14679,5JoDmSstsk28RMS7Sk4HoT,,0,3604,false,1.0
+musical_features_loudness,id_song,7056,14679,14679,,5JoDmSstsk28RMS7Sk4HoT,3604,0,true,0.4806513148930372
+id_song,musical_features_speechiness,14679,1146,14679,5JoDmSstsk28RMS7Sk4HoT,,0,3604,false,1.0
+musical_features_speechiness,id_song,1146,14679,14679,,5JoDmSstsk28RMS7Sk4HoT,3604,0,true,0.07800790298405777
+id_song,musical_features_tempo,14679,9865,14679,5JoDmSstsk28RMS7Sk4HoT,,0,3604,false,1.0
+musical_features_tempo,id_song,9865,14679,14679,,5JoDmSstsk28RMS7Sk4HoT,3604,0,true,0.6720261616023981
+id_song,musical_features_valence,14679,1277,14679,5JoDmSstsk28RMS7Sk4HoT,,0,3604,false,1.0
+musical_features_valence,id_song,1277,14679,14679,,5JoDmSstsk28RMS7Sk4HoT,3604,0,true,0.08693282463550893
+id_song,song,14679,14004,14679,5JoDmSstsk28RMS7Sk4HoT,come prima,0,0,false,1.0
+song,id_song,14004,14679,14679,come prima,5JoDmSstsk28RMS7Sk4HoT,0,0,false,0.9540128082845074
+lyrics,musical_features_acousticness,14419,3237,14610,instrumental,,0,3604,false,0.982703975369012
+musical_features_acousticness,lyrics,3237,14419,14610,,instrumental,3604,0,true,0.21635774822572865
+lyrics,musical_features_danceability,14419,847,14626,instrumental,,0,3604,false,0.9812822135816982
+musical_features_danceability,lyrics,847,14419,14626,,instrumental,3604,0,true,0.05050992282249173
+lyrics,musical_features_duration_ms,14419,8615,14640,instrumental,,0,3604,false,0.9800415424907433
+musical_features_duration_ms,lyrics,8615,14419,14640,,instrumental,3604,0,true,0.5848263506063948
+artist_artist_id,musical_features_energy,710,1031,10698,7i7EQonx0GrqoKiNQL4gFO,,0,3604,false,0.04993817178731095
+musical_features_energy,artist_artist_id,1031,710,10698,,7i7EQonx0GrqoKiNQL4gFO,3604,0,true,0.08646758646758647
+lyrics,musical_features_energy,14419,1031,14631,instrumental,,0,3604,false,0.9808387563268257
+musical_features_energy,lyrics,1031,14419,14631,,instrumental,3604,0,true,0.0629091159649969
+lyrics,musical_features_instrumentalness,14419,3491,14616,instrumental,0,0,3604,false,0.9816965530056676
+musical_features_instrumentalness,lyrics,3491,14419,14616,0,instrumental,3604,0,true,0.23334022465715665
+lyrics,musical_features_liveness,14419,1414,14612,instrumental,,0,3604,false,0.9825260298777727
+musical_features_liveness,lyrics,1414,14419,14612,,instrumental,3604,0,true,0.09054575523704521
+lyrics,musical_features_loudness,14419,7056,14641,instrumental,,0,3604,false,0.9799530431641683
+musical_features_loudness,lyrics,7056,14419,14641,,instrumental,3604,0,true,0.4773651209260663
+lyrics,musical_features_speechiness,14419,1146,14623,instrumental,,0,3604,false,0.981548480463097
+musical_features_speechiness,lyrics,1146,14419,14623,,instrumental,3604,0,true,0.07132028665931643
+lyrics,musical_features_tempo,14419,9865,14641,instrumental,,0,3604,false,0.9799530431641683
+musical_features_tempo,lyrics,9865,14419,14641,,instrumental,3604,0,true,0.6709157307241783
+lyrics,musical_features_valence,14419,1277,14631,instrumental,,0,3604,false,0.9808387563268257
+musical_features_valence,lyrics,1277,14419,14631,,instrumental,3604,0,true,0.07985943636739475
+lyrics,song,14419,14004,14638,instrumental,come prima,0,0,false,0.9850338276498326
+song,lyrics,14004,14419,14638,come prima,instrumental,0,0,false,0.9562788773188056
+musical_features_acousticness,musical_features_danceability,3237,847,11008,,,3604,3604,false,0.2939947306259653
+musical_features_danceability,musical_features_acousticness,847,3237,11008,,,3604,3604,false,0.07686017988552739
+musical_features_acousticness,musical_features_duration_ms,3237,8615,11072,,,3604,3604,false,0.2922951856200885
+musical_features_duration_ms,musical_features_acousticness,8615,3237,11072,,,3604,3604,false,0.7780688284707795

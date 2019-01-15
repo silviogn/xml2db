@@ -5,7 +5,6 @@ require "optparse"
 require "set"
 require "sequel"
 require "parallel"
-
 require "p1_query_runner"
 
 options = {
@@ -90,7 +89,10 @@ puts "Number of pairs remaining: #{combinations.size}"
 
 # Step 4: Run the remaining combinations in the appropriate number of threads
 query_cache = Concurrent::Hash.new
-database = Sequel.connect(options[:database_url], max_connections: options[:n_threads])
+
+#database = Sequel.connect(options[:database_url], max_connections: options[:n_threads])
+database = Sequel.connect('postgres://postgres:123456@127.0.0.1:5432/sd')
+
 Parallel.each(combinations, in_threads: options[:n_threads]) do |combination|
   query_runner = P1QueryRunner.new(
     thread_number: Parallel.worker_number,

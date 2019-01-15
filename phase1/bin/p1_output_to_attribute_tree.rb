@@ -1,5 +1,6 @@
 require "set"
 require "table_generator"
+require "optparse"
 
 options = {
   p1_output_directory: "p1_output",

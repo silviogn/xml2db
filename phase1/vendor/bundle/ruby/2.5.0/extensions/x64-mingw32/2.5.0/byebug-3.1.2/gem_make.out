@@ -1,0 +1,20 @@
+current directory: C:/tmp/xml2db/phase1/vendor/bundle/ruby/2.5.0/gems/byebug-3.1.2/ext/byebug
+C:/Ruby25-x64/bin/ruby.exe -I C:/Ruby25-x64/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190109-13132-1f3vgaq.rb extconf.rb
+creating Makefile
+
+current directory: C:/tmp/xml2db/phase1/vendor/bundle/ruby/2.5.0/gems/byebug-3.1.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: C:/tmp/xml2db/phase1/vendor/bundle/ruby/2.5.0/gems/byebug-3.1.2/ext/byebug
+make "DESTDIR="
+generating byebug-x64-mingw32.def
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: C:/tmp/xml2db/phase1/vendor/bundle/ruby/2.5.0/gems/byebug-3.1.2/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20190109-13132-1kzf7cn/byebug

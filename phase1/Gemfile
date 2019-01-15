@@ -1,5 +1,6 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
+#gem "pg_ext"
 gem "byebug"
 gem "concurrent-ruby"
 gem "pg"

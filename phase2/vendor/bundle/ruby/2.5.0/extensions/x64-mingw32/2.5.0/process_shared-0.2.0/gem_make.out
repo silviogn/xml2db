@@ -1,0 +1,24 @@
+current directory: C:/tmp/xml2db/phase2/vendor/bundle/ruby/2.5.0/gems/process_shared-0.2.0/ext/helper
+C:/Ruby25-x64/bin/ruby.exe -I C:/Ruby25-x64/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190110-15088-teyaqy.rb extconf.rb
+checking for fcntl.h... yes
+checking for sys/mman.h... no
+checking for semaphore.h... yes
+checking for sem_t in semaphore.h... yes
+checking for pthread.h... yes
+checking for pthread_mutex_t in pthread.h... yes
+checking for pthread_mutexattr_t in pthread.h... yes
+creating Makefile
+
+current directory: C:/tmp/xml2db/phase2/vendor/bundle/ruby/2.5.0/gems/process_shared-0.2.0/ext/helper
+make "DESTDIR=" clean
+
+current directory: C:/tmp/xml2db/phase2/vendor/bundle/ruby/2.5.0/gems/process_shared-0.2.0/ext/helper
+make "DESTDIR="
+generating helper-x64-mingw32.def
+compiling helper.c
+linking shared-object process_shared/posix/helper.so
+C:/Ruby25-x64/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.2.1/../../../../x86_64-w64-mingw32/bin/ld.exe: Cannot export Init_helper: symbol not defined
+collect2.exe: error: ld returned 1 exit status
+make: *** [Makefile:259: helper.so] Error 1
+
+make failed, exit code 2
